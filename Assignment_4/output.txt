@@ -1,2 +1,2 @@
-hi 
-hello
+Hello Python!
+Learning file handeling with python.
