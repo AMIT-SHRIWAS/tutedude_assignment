@@ -3,13 +3,11 @@ Purpose: Opens sample.txt, reads line-by-line, handles FileNotFoundError gracefu
 
 Key Concepts:
 
-with open() ensures automatic file closure
+1. with open() ensures automatic file closure
 
-try-except catches FileNotFoundError
+2. try-except catches FileNotFoundError
 
-file iterable reads line-by-line
-
-.strip() removes newline characters
+3. file iterable reads line-by-line
 
 Task 2: Write, Append, and Read File
 Purpose: Creates output.txt, writes initial data, appends more, then displays final content.
