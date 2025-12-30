@@ -1,8 +1,23 @@
-Task_1 :Create a Dictionary of Student Marks
+Task 1: Student Marks Dictionary (Hardcoded)
+Purpose: Uses predefined dictionary, searches by name, handles missing students.
 
-Method : Using a hardcoded set of data of student name and marks in a dictionary format, with the data we  try to find the students data in the dictionary for this input is taken by user side.
+Key Concepts:
 
+Hardcoded dictionary: {"name": marks}
 
-Task_2 : Demonstrate List Slicing
+if name in dict membership test
 
-Method ; used the slicing methods to slice out first five elements of list and reverse the sliced list
+dict.keys() shows available students
+
+Direct key access: dict[name]
+
+Task 2: List Slicing & Reversal
+Purpose: Demonstrates slicing to extract subset and reverse using [::-1].
+
+Key Concepts:
+
+range(1, 11) creates [1, 2, ..., 10]
+
+[:5] extracts first 5 elements
+
+[::-1] reverses any slice (step=-1)
